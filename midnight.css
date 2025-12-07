@@ -57,7 +57,7 @@ body {
     .chat_f75fb0 > .header__0b563  /* server channels and roles header */,
     .chat_f75fb0 > .container__0b563 /* server channels and roles page */ {
         background-color: var(--background-base-lower);
-        border-radius: var(0);
+        border-radius: var(--radius-md);
         border: var(--border-thickness) solid var(--border-subtle);
         backdrop-filter: var(--panel-backdrop-filter);
         box-sizing: border-box;
@@ -123,7 +123,7 @@ body {
         left: 0;
         right: 0;
         width: auto;
-        border-radius: var(0) var(0) 0 0;
+        border-radius: var(--radius-md) var(--radius-md) 0 0;
     }
 
     .sidebar__5e434:after /* server list + channel list bottom shadow */ {
@@ -419,10 +419,10 @@ body {
 
     .outer_c0bea0 /* profile outer */, 
     .contentWrapper__08434  /* gif panel */ {
-        border-radius: var(0);
+        border-radius: var(--radius-md);
     }
     .inner_c0bea0 /* profile inner */ {
-        border-radius: calc(var(0) - 4px);
+        border-radius: calc(var(--radius-md) - 4px);
     }
 
     .outer_c0bea0 /* profile outer */ {
@@ -552,7 +552,7 @@ body {
         }
         .messagesWrapper__36d07 {
             background-color: var(--background-base-lower);
-            border-radius: var(0);
+            border-radius: var(--radius-md);
             border: var(--border-thickness) solid var(--border-subtle);
             backdrop-filter: var(--panel-backdrop-filter);
             transition: border-color var(--border-hover-transition);
@@ -576,7 +576,7 @@ body {
             right: 0;
             background: var(--background-base-lower);
             height: 26px;
-            border-radius: 0 0 var(0) var(0);
+            border-radius: 0 0 var(--radius-md) var(--radius-md);
             z-index: 2;
         }
         .form_f75fb0 {
@@ -591,7 +591,7 @@ body {
             order: -1;
             top: calc(-26px + var(--border-thickness) * -1);
             left: calc(var(--border-thickness));
-            border-radius: 0 0 0 var(0);
+            border-radius: 0 0 0 var(--radius-md);
             padding: 0 0 0 var(--space-sm);
             height: 26px;
         }
@@ -601,7 +601,7 @@ body {
         .channelTextArea_f75fb0 {
             margin: 0;
             background-color: var(--background-base-lower);
-            border-radius: var(0);
+            border-radius: var(--radius-md);
             border: var(--border-thickness) solid var(--border-subtle);
             backdrop-filter: var(--panel-backdrop-filter);
             transition: border-color var(--border-hover-transition);
@@ -617,7 +617,7 @@ body {
             margin: var(--gap) 0 0 0;
             height: var(--chatbar-height);
             padding: 0;
-            border-radius: var(0);
+            border-radius: var(--radius-md);
             border: var(--border-thickness) solid var(--border-subtle);
             backdrop-filter: var(--panel-backdrop-filter);
             transition: border-color var(--border-hover-transition);
